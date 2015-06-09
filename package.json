@@ -1,0 +1,11 @@
+{
+  "name": "match-route-pattern",
+  "version": "1.2.0",
+  "main": "lib",
+  "scripts": {
+    "prepublish": "babel src -d lib"
+  },
+  "devDependencies": {
+    "babel": "5.5.6"
+  }
+}
