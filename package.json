@@ -25,14 +25,17 @@
     "url": "vslinko/match-route-pattern"
   },
   "scripts": {
-    "prepublish": "babel -d dist lib"
+    "prepublish": "babel lib -d dist",
+    "lint": "eslint lib"
   },
   "config": {
   },
   "dependencies": {
   },
   "devDependencies": {
-    "babel": "5.5.6"
+    "babel": "5.5.6",
+    "eslint": "0.23.0",
+    "babel-eslint": "3.1.16"
   },
   "peerDependencies": {
   },
