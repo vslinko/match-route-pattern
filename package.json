@@ -1,6 +1,6 @@
 {
   "name": "match-route-pattern",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Function that matching url by pattern and extracting query parameters",
   "keywords": [
     "router",
