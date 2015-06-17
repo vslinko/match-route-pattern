@@ -1,0 +1,12 @@
+machine:
+  node:
+    version: 0.12.0
+
+test:
+  override:
+    - npm run test-coverage
+    - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
+
+general:
+  artifacts:
+    - coverage
