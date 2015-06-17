@@ -1,11 +1,53 @@
 {
   "name": "match-route-pattern",
   "version": "1.2.0",
-  "main": "lib",
+  "description": "<package-description>",
+  "keywords": [
+  ],
+  "homepage": "https://github.com/vslinko/match-route-pattern",
+  "bugs": {
+    "url": "https://github.com/vslinko/match-route-pattern/issues",
+    "email": "vslinko@yahoo.com"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Vyacheslav Slinko",
+    "email": "vslinko@yahoo.com",
+    "url": "https://twitter.com/vslinko"
+  },
+  "contributors": [
+  ],
+  "main": "dist",
+  "bin": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "vslinko/match-route-pattern"
+  },
   "scripts": {
-    "prepublish": "babel src -d lib"
+    "prepublish": "babel -d dist lib"
+  },
+  "config": {
+  },
+  "dependencies": {
   },
   "devDependencies": {
     "babel": "5.5.6"
+  },
+  "peerDependencies": {
+  },
+  "bundledDependencies": [
+  ],
+  "optionalDependencies": {
+  },
+  "engines": {
+  },
+  "os": [
+  ],
+  "cpu": [
+  ],
+  "preferGlobal": false,
+  "private": false,
+  "publishConfig": {
   }
 }
