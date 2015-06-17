@@ -1,8 +1,11 @@
 {
   "name": "match-route-pattern",
   "version": "1.2.1",
-  "description": "<package-description>",
+  "description": "Function that matching url by pattern and extracting query parameters",
   "keywords": [
+    "router",
+    "routing",
+    "url"
   ],
   "homepage": "https://github.com/vslinko/match-route-pattern",
   "bugs": {
