@@ -6,11 +6,7 @@
   "env": {
     "browser": true,
     "node": true,
-    "jasmine": true,
     "es6": true
-  },
-  "globals": {
-    "jest": true
   },
   "rules": {
     "comma-dangle": [2, "never"],
